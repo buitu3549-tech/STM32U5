@@ -1,0 +1,45 @@
+﻿# -*- coding: utf-8 -*-
+import sys
+# Part 1: Write all 4 stages content
+lines = []
+
+# ===== HEADER =====
+lines.append('# 《归星纪》第二部《断铁江湖》总纲（起点版）')
+lines.append('')
+lines.append('**类型：** 废土武侠 / 宇宙科幻')
+lines.append('**主角：** 顾沉舟')
+lines.append('**字数目标：** 50-80万字（约180章，每章3000-4000字）')
+lines.append('**结构：** 螺旋递进式，四阶段 x 十三弧')
+lines.append('**终局：** 文明静默真相揭示；顾沉舟从"被标记的工具"到"选择成为信使"的转变完成')
+lines.append('')
+lines.append('---')
+lines.append('')
+lines.append('## 总体节奏设计')
+lines.append('')
+lines.append('全书180章分为四个阶段，每阶段约45章。类型的体感从"废土武侠"到"宇宙科幻"逐步爬升，但叙事高度始终压在顾沉舟的视角——一个在人与机器边界上游走的拾荒武者。他不是英雄，他是文明废墟上最后一个还在呼吸的问号。')
+lines.append('')
+lines.append('\x60\x60\x60')
+lines.append('阶段一（1-45章）：铁与锈')
+lines.append('  情感密度 ████░░░░░░  低——用废土日常让读者先爱上这个世界')
+lines.append('  世界观    ██░░░░░░░░  仅暗示旧文明的存在，不解释为什么')
+lines.append('  节奏      ███░░░░░░░  慢，用铁锈黄沙和废弃机械构筑日常')
+lines.append('')
+lines.append('阶段二（46-90章）：旧世界的回声')
+lines.append('  情感密度 ██████░░░░  中——遗迹之下，恐惧积累')
+lines.append('  世界观    ████░░░░░░  旧文明真相被碎片式触及，天律星初次投影')
+lines.append('  节奏      █████░░░░░  加快，顾沉舟开始反向追踪系统规则')
+lines.append('')
+lines.append('阶段三（91-135章）：天空之上')
+lines.append('  情感密度 ████████░░  中高——地球被发现，跨文明广播建立')
+lines.append('  世界观    ███████░░░  林澈的名单穿透静默带，宇宙尺度的信息涌入')
+lines.append('  节奏      ██████░░░░  中速，两条叙事线开始共振')
+lines.append('')
+lines.append('阶段四（136-180章）：断铁')
+lines.append('  情感密度 ██████████  高——直接接触，改写发射器，真相全盘展开')
+lines.append('  世界观    ██████████  文明静默完整机制呈现，星核信号跨光年确立')
+lines.append('  节奏      ████████░░  慢而重，每个动作都沉')
+lines.append('\x60\x60\x60')
+
+with open("E:/项目/归星纪/归星纪-第二部-断铁江湖-起点版.md", "w", encoding="utf-8") as f:
+    f.write("\n".join(lines))
+print("Header done")

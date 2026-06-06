@@ -1,0 +1,12 @@
+=== Clearing Temp ===
+Temp before: 0.07 GB
+Temp after: 0.07 GB
+Temp cleared!
+
+=== Deleting JianyingPro cache ===
+JianyingPro not found
+
+=== Deleting .minecraft ===
+.minecraft not found
+
+Done!
