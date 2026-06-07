@@ -21,6 +21,23 @@ screenshot*.png
 # Token/sensitive
 token-relay/
 
+# Unrelated personal files
+归星纪/
+小企业自动化/
+龙族PPT*.html
+白花石刻*
+docs/
+agentmemory_demo.json
+gen_paper.py
+check-disk.ps1
+cleanup-result.txt
+cleanup.ps1
+deep-check.ps1
+list-apps.ps1
+screenshot.ps1
+vcpkg_install.bat
+verify.ps1
+
 # OS files
 Thumbs.db
 Desktop.ini
