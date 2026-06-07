@@ -21,6 +21,14 @@ screenshot*.png
 # Token/sensitive
 token-relay/
 
+# STM32 build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
 # OS files
 Thumbs.db
 Desktop.ini
